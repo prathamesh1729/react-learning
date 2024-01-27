@@ -4,8 +4,9 @@ import Hero from './components/Hero';
 import Card from './components/Card';
 import experiences from './data/experiences';
 import CardX from './components/CardX';
-import MultiJoke from './components/MultiJoke';
-import Form from './components/Form';
+// import MultiJoke from './components/MultiJoke';
+// import Form from './components/Form';
+// import Signup from './components/Signup';
 
 
 function App() {
@@ -89,7 +90,8 @@ function App() {
       </section>
 
       {/* <MultiJoke /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <Signup /> */}
     </div>
   )
 }
