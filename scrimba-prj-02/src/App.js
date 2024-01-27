@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Card from './components/Card';
 import experiences from './data/experiences';
 import CardX from './components/CardX';
+import MultiJoke from './components/MultiJoke';
+import Form from './components/Form';
 
 
 function App() {
@@ -86,6 +88,8 @@ function App() {
         {expsv3}
       </section>
 
+      {/* <MultiJoke /> */}
+      <Form />
     </div>
   )
 }
