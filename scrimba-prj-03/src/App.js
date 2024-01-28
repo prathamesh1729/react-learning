@@ -1,11 +1,14 @@
 import './App.css';
-import Boxes from './components/Boxes';
-import Contact from './components/Contact';
-import Counter from './components/Counter';
-import Exercise from './components/Exercise';
-import Explore from './components/Explore';
+// import Api from './components/Api';
+// import Boxes from './components/Boxes';
+// import Contact from './components/Contact';
+// import Counter from './components/Counter';
+// import Exercise from './components/Exercise';
+// import Explore from './components/Explore';
+// import Window from './components/Window';
 import Header from './components/Header';
 import Meme from './components/Meme';
+
 
 
 function App() {
@@ -36,7 +39,9 @@ function App() {
       {/* <Exercise /> */}
       {/* <Counter /> */}
       {/* <Contact /> */}
-      <Boxes darkMode={false} />
+      {/* <Boxes darkMode={false} /> */}
+      {/* <Api /> */}
+      {/* <Window /> */}
     </div>
   );
 }
