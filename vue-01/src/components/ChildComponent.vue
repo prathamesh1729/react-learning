@@ -19,10 +19,10 @@ emit('response', 'Hello from the child component!')
 
 <style scoped>
 p {
-    color: greenyellow;
+    color: green;
 }
 
 .child--slot {
-    color: cyan;
+    color: blue;
 }
 </style>
