@@ -1,0 +1,34 @@
+input, textarea {
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    margin-bottom: 10px;
+    text-indent: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: 70px;
+    margin-bottom: 10px;
+    text-indent: 5px;
+}
+
+label.favColor {
+    display: block;
+}
+
+form {
+    padding: 20px;
+}

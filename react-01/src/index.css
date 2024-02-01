@@ -1,0 +1,32 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+div#root {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  margin: 1rem 0;
+}
